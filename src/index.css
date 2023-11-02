@@ -1,0 +1,41 @@
+.board-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 400px; 
+    height: 330px; 
+    margin: 0 auto; 
+    border: 2px solid #333;
+}
+.square {
+  width: 100px;
+  height: 100px;
+  font-size: 36px;
+  text-align: center;
+  line-height: 100px;
+  transition: transform 0.2s; 
+  display: inline-block; 
+  vertical-align: top; 
+}
+
+
+.board-row {
+  height: 100px; 
+  display: flex;
+  align-items: center;
+}
+
+
+.square:hover {
+  transform: none;
+}
+
+.game-info {
+  width: 300px; 
+  margin-left: 20px; 
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
